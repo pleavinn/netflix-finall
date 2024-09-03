@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 1%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #232526, #414345);
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background: #2c3e50;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ecf0f1;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #34495e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+input:focus {
+  border-color: #2980b9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    width: 90%;
+  }
+}
